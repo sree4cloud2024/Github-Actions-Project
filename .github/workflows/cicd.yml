@@ -35,8 +35,6 @@ jobs:
           version: latest
           cache: true
 
-
-
     - name: Gitleaks Installation
       run: sudo apt install gitleaks -y
     - name: Gitleaks Code Scan
