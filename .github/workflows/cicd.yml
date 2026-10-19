@@ -26,9 +26,8 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Trivy Installation
-      run: |
-        uses: aquasecurity/setup-trivy@v0.2.6
-        with:
+      uses: aquasecurity/setup-trivy@v0.2.6
+      with:
           version: latest
           cache: true
 
